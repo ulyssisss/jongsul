@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Precautions">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n\n\n주의사항을 신중하게 읽어보신 뒤, 동의하기 버튼을 눌러주세요"
+        android:layout_gravity="center"></TextView>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="\n\n\n\n"/>
+    <TextView
+        android:layout_width="393dp"
+        android:layout_height="356dp"
+        android:layout_gravity="center"
+        android:background="@drawable/precaut"
+        android:text="\n\n뭔가 엄청 많은 내용들.\n\nsdfasf\n\n\n\n\newefefsef\n\n제1약관"
+        android:textColor="@color/black" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="\n\n\n"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="확인하였습니다."
+        android:layout_gravity="center"
+        android:backgroundTint="@color/black"></Button>
+
+</LinearLayout>

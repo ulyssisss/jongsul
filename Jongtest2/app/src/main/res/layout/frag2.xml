@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#657C93"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="검사하기 전에!\n\n"
+        android:layout_gravity="center"
+        android:textSize="40sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="안내사항\n\n"
+        android:layout_gravity="center"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    해당 검사는 어디까지나 \n 초기 검진을 위한 목적입니다.\n"
+        android:layout_gravity="center"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                    정밀한 진단은  \n 병원을 통해 진행해 주시길 바랍니다. "
+        android:layout_gravity="center"
+        android:textColor="#ff5000"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="86dp" />
+    <Button
+        android:id="@+id/connect_cam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="동의합니다"
+        android:backgroundTint="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n해당 버튼을 클릭하시면 검사 페이지로 이동합니다."
+        android:layout_gravity="center"/>
+</LinearLayout>

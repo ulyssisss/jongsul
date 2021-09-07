@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="병들"
+        android:layout_gravity="center"
+        android:textSize="40sp"/>
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:text="관련 정보나 기사들" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/square"
+        android:backgroundTint="#A3A872">
+
+        <TextView
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:text="\n\n  피부병 증세 완화!!.\n\n   ~병원 전문진이 개발해내.\n"
+            android:textColor="@color/white" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/test1"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="291dp" />
+    <Button
+        android:id="@+id/ill_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/black"
+        android:text="질병 검색하기" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="140dp" />
+</LinearLayout>
